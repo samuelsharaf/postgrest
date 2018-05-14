@@ -11,13 +11,12 @@ environment:
 
 test: off
 
-skip_non_tags: true
-
 skip_branch_with_pr: true
 
 branches:
   only:
     - master
+    - build-v0.5.0.0
 
 install:
 - set PATH=C:\Program Files\PostgreSQL\9.6\bin\;%PATH%
